@@ -1,0 +1,88 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Hashiguchi Official Web Site</title>
+    <meta name="description" content="Hashiguchi Official Web Site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section id="first" class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Hashiguchi
+                <p class="subtitle">
+                    Official Web Site
+                </p>
+            </h1>
+        </div>
+    </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="src/video/video.mp4" type="video/mp4">
+    </video>
+</section>
+<section id="radar" class="hero is-fullheight map-over">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Hashiguchi Radar
+            </h1>
+            <h2 class="subtitle">
+                今、ここにいるよ。
+            </h2>
+        </div>
+    </div>
+    <div id="map"></div>
+</section>
+<section id="partners" class="hero is-info is-fullheight">
+    <div class="header">
+        <h1 class="title">
+            様々な企業を利用しています。
+        </h1>
+        <h2 class="subtitle">
+            Our Partners
+        </h2>
+    </div>
+    <div class="hero-body">
+        <div class="container">
+            <div class="company">
+                <img src="/src/img/partners/apple.svg">
+                <p>Apple Inc.</p>
+            </div>
+            <div class="company">
+                <img src="/src/img/partners/microsoft.svg">
+                <p>日本マイクロソフト</p>
+            </div>
+            <div class="company">
+                <img src="/src/img/partners/facebook.svg">
+                <p>Facebook Inc.</p>
+            </div>
+            <div class="company">
+                <img src="/src/img/partners/amazon.svg">
+                <p>Amazon.com Inc.</p>
+            </div>s
+            <div class="company">
+                <img src="/src/img/partners/mcdonald.svg">
+                <p> 日本マクドナルド</p>
+            </div>
+            <div class="company">
+                <img src="/src/img/partners/nitori.jpg">
+                <p>株式会社ニトリ</p>
+            </div>
+            <div class="company">
+                <img src="/src/img/partners/daiso.png">
+                <p>株式会社大創産業</p>
+            </div>
+            <div class="company">
+                <img src="/src/img/partners/zensho.svg">
+                <p>ゼンショーホールディングス</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="assets/bundle.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAMbICUCmaEbT6nljdtDUgEPKDtm4c7YE&callback=initMap"></script>
+</body>
+</html>
