@@ -29,7 +29,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     p {
-      display: inline;
+      @media screen and (min-width: 600px) {
+        display: inline;
+      }
     }
   }
 }
