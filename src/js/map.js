@@ -1,10 +1,10 @@
 //googlemap
 // Initialize and add the map
 function initMap() {
-    var tokyo = {lat: -35.681167, lng: 139.767052};
+    var tokyo = {lat: 35.652832, lng: 139.839478};
     var map = new google.maps.Map(
         document.getElementById('map'), {
-            zoom: 4,
+            zoom: 11.0,
             center: tokyo,
             disableDefaultUI: true,
             styles: [
